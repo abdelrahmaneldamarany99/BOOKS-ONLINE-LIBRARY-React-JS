@@ -1,0 +1,9 @@
+.not-found-background{
+    /* background: url(../../assets/images/page-not-found-1907792_960_720.jpg) no-repeat center;
+    height: 85vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+  }

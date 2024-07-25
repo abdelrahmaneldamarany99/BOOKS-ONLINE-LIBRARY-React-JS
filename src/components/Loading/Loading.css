@@ -1,0 +1,9 @@
+.loading-no_result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: Bold;
+  color: gray;
+  top: 5px;
+  position: relative;
+}

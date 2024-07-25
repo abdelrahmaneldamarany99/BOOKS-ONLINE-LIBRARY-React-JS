@@ -1,0 +1,59 @@
+* {
+  background: antiquewhite;
+}
+.container {
+  display: flex;
+  height: 600px;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+}
+.card-img {
+  min-width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  background: url(../../assets/images/Blank-1823406222-1024x1024.jpg) #fafafa;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px 0 0 10px;
+}
+
+.book-content {
+  display: flex;
+  border: 5px solid azure;
+  min-height: 300px;
+  overflow-y: auto;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+li {
+  text-decoration: none;
+  margin: 10px 7px 0 0;
+}
+
+h6 {
+  align-self: self-end;
+}
+
+.card-custom-style {
+  width: 325px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.card-custom-style:hover {
+  cursor: pointer;
+  color: azure;
+  font-weight: bolder;
+  border: 10px #01ce01 solid;
+}
+.card-anchor {
+  cursor: pointer;
+  text-decoration: none;
+}
